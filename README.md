@@ -10,21 +10,23 @@
 # Usage
 
 ```
-### Install Itamae
+## Update rubygems and Install bundler
 sudo gem update --system
 sudo gem install bundler
 
-### git clone this repository to local
+## git clone this repository to local
 git clone https://github.com/nobutakaoshiro/osx-itamae-recipe.git
 cd osx-itamae-recipe
+
+## Install Itamae
 bundle install
 
-### apply to localhost
+## apply recipe to localhost
 bundle exec itamae local recipe.rb
 
 # or
 
-### apply to remote server
+## apply recipe to remote server
 bundle exec itamae ssh --host host001.example.com recipe.rb
 ```
 
